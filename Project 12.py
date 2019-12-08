@@ -40,7 +40,7 @@ def withdraw(wAmount):
         if Balance_1 >= wSAmount:
             Balance_2 = Balance_1 - wSAmount
             account[3] = str(Balance_2)
-            print(wSAmount, "dolalrs was withdrawn from your Checking account.")
+            print(wSAmount, "dollars was withdrawn from your Checking account.")
         else:
             print("Insufficient Funds")
     else:
@@ -84,7 +84,7 @@ def ATM():
         print("5. withdraw from Savings")
         print("6. Transfer from Checking to Savings")
         print("7. Transfer from Savings to Checking")
-        print("8. Log Off")
+        print("8. Exit System")
         Option = input("\nPlease choose which option you would like to have done today: ")
 
         if Option == "1":
